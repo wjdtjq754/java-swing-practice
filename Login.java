@@ -16,7 +16,7 @@ public class Login extends JFrame {
 		JLabel label = new JLabel("ID : ");
 		JLabel pswrd = new JLabel("password : ");
 		JTextField txtID = new JTextField(10);
-		JPasswordField txtPass = new JPasswordField(10);
+		JPasswordField txtPass = new JPasswordField(10);	//비밀번호처럼 암호화된 상태로 표기하고 싶을때 사용
 		JButton logBtn = new JButton("Log in");
 		
 		panel.add(label);
