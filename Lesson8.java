@@ -1,7 +1,6 @@
 import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Image;
-import java.io.File;
 
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
@@ -16,11 +15,9 @@ public class Lesson8 {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setVisible(true);
 		
-		ImagePanel panel = new ImagePanel(new ImageIcon("./image/afk.jpg").getImage());
-		File f = new File("./image/afk.jpg");
-		System.out.println(f.exists() ? "yes" : "no");
+		ImagePanel panel = new ImagePanel(new ImageIcon("./image/afk.jpg").getImage());	//경로에 해당하는 이미지를 가져온다.
 		frame.add(panel);
-		frame.pack();
+		frame.pack();  // frame의 크기를 사진크기에 맞춰준다.
 		
 
 	}
@@ -33,7 +30,7 @@ class ImagePanel extends JPanel{
 		this.img = img;
 		setSize(new Dimension(img.getWidth(null),img.getHeight(null)));
 		setPreferredSize(new Dimension(img.getWidth(null),img.getHeight(null)));
-		setLayout(null);
+		setLayout(null);	//
 	}
 	public void paintComponent(Graphics g) {
 		g.drawImage(img,0,0,null);
