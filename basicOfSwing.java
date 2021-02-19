@@ -22,17 +22,17 @@ public class Frame {
 		
 		panel.setLayout(new BorderLayout());
 		
-		btnPanel.add(btn1);
+		btnPanel.add(btn1);	//버튼은 만들고 panel에 add시켜줘야함.
 		btnPanel.add(btn2);
 		panel.add(label, BorderLayout.NORTH);
 		panel.add(btnPanel,BorderLayout.WEST);
 		panel.add(txtArea,BorderLayout.CENTER);
 		
-		btn1.addActionListener(new ActionListener() {
+		btn1.addActionListener(new ActionListener() {	//버튼동작을 위해 필요한 메서드
 
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				label.setText(txtArea.getText());
+				label.setText(txtArea.getText());	//이곳에 버튼이 취하는 동작 입력
 				
 			}
 			
