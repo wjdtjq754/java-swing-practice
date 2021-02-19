@@ -10,8 +10,8 @@ public class Lesson7 {
 	public static void main(String[] args) {
 		JFrame frame = new JFrame("Table prac.");
 		JPanel panel = new JPanel();
-		String[] headings = new String[] {"Id","Name","Country"};
-		Object[][] data = new Object[][] {
+		String[] headings = new String[] {"Id","Name","Country"};	//Table heading 부분
+		Object[][] data = new Object[][] {	//Table 내용
 			{"1","Daniel","Korea"},
 			{"2","Sunny","France"},
 			{"3","John","Japan"}
