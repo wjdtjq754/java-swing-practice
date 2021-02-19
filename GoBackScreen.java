@@ -52,7 +52,7 @@ public class Lesson6 {
 		endPage.setLayout(null);
 		
 		JButton btnBefore = new JButton("GO TO LAST");
-		btnBefore.setFont(new Font("HY�߰���", Font.PLAIN, 20));
+		btnBefore.setFont(new Font("HY°ß°íµñ", Font.PLAIN, 20));
 		btnBefore.setBounds(529, 98, 189, 282);
 		endPage.add(btnBefore);
 		
@@ -64,7 +64,7 @@ public class Lesson6 {
 		JButton btnNext = new JButton("GO TO NEXT");
 		btnNext.setBounds(59, 76, 267, 327);
 		startPage.add(btnNext);
-		endPage.setVisible(false);
+		endPage.setVisible(false);	//startPage 먼저 보이도록
 		btnNext.addActionListener(new ActionListener() {
 
 			@Override
