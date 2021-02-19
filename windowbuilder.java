@@ -55,7 +55,7 @@ public class Lesson3 {
 		frame.getContentPane().add(btnNewButton);
 		
 		JLabel lblNewLabel = new JLabel("Login form");
-		lblNewLabel.setFont(new Font("Adobe °íµñ Std B", Font.ITALIC, 20));
+		lblNewLabel.setFont(new Font("Adobe Â°Ã­ÂµÃ± Std B", Font.ITALIC, 20));
 		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
 		lblNewLabel.setBounds(77, 28, 198, 57);
 		frame.getContentPane().add(lblNewLabel);
@@ -66,7 +66,7 @@ public class Lesson3 {
 		frame.getContentPane().add(lblNewLabel_1);
 		
 		textField = new JTextField();
-		textField.setFont(new Font("±¼¸²", Font.PLAIN, 16));
+		textField.setFont(new Font("Â±Â¼Â¸Â²", Font.PLAIN, 16));
 		textField.setBounds(140, 81, 189, 34);
 		frame.getContentPane().add(textField);
 		textField.setColumns(10);
