@@ -6,7 +6,7 @@ import java.awt.BorderLayout;
 import javax.swing.JButton;
 import javax.swing.ImageIcon;
 
-public class Lesson9 {
+public class Lesson9 {	//window builder를 이용한 설정
 
 	private JFrame frame;
 
@@ -51,7 +51,7 @@ public class Lesson9 {
 		btnNewButton.setIcon(new ImageIcon("D:\\DATA (\uC808\uB300 \uC0AD\uC81C\uAE08\uC9C0)\\Desktop\\common9LE8GR1P.jpg"));
 		btnNewButton.setSelectedIcon(new ImageIcon("D:\\DATA (\uC808\uB300 \uC0AD\uC81C\uAE08\uC9C0)\\Desktop\\common9LE8GR1P.jpg"));
 		btnNewButton.setBounds(32, 45, 267, 100);
-		btnNewButton.setPressedIcon(new ImageIcon("C:\\eclipse\\swing practice\\image\\afk.jpg"));
+		btnNewButton.setPressedIcon(new ImageIcon("C:\\eclipse\\swing practice\\image\\afk.jpg"));	//버튼을 클릭했을 때 나오는 이미지 설정
 		panel.add(btnNewButton);
 	}
 }
